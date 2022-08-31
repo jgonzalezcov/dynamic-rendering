@@ -1,0 +1,289 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  color: #fff;
+}
+body {
+  height: 100%;
+  background-repeat: no-repeat;
+  background: url(./assets/img/fondomk.gif) no-repeat center center fixed;
+  background-color: #000;
+  margin-bottom: 110px;
+}
+header {
+  background-color: #000;
+  height: 20%;
+  border: 4px solid #611616;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px 5px 10px 10px;
+}
+.logo-header {
+  width: 350px;
+  height: auto;
+  margin-left: calc(50% - 175px);
+}
+.header-button {
+  background-image: url(./assets/img/rain-blood.gif);
+  border-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15vw;
+  height: 35px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.search {
+  width: 15vw;
+  height: 30px;
+  color: #070404;
+  border-radius: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.container-search {
+  display: flex;
+}
+.blood {
+  height: 20px;
+  width: 7vw;
+}
+
+.container-button {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-boold {
+  display: flex;
+}
+
+.new-person {
+  background-image: url(./assets/img/fond_menu.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  width: 95%;
+  height: 97%;
+  border: solid 4px #611616;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.find-person {
+  background-image: url(./assets/img/the-blood.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  width: 95%;
+  height: 97%;
+  border: solid 4px #611616;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Border-menu {
+  background-image: url(./assets/img/rain-blood.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  margin-top: 5px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 70vh;
+  margin-left: 10px;
+  border: solid 1px #611616;
+  position: absolute;
+  z-index: 2;
+}
+.new-name {
+  margin-top: 20px;
+}
+.new-mail {
+  margin-top: 10px;
+}
+.new-raza {
+  margin-top: 10px;
+}
+.title-new-fighter {
+  margin-top: 20px;
+}
+
+.new-input {
+  border: solid 5px rgb(151, 20, 17);
+  height: 30px;
+  width: 15vw;
+  border-radius: 10px;
+  color: #000;
+  text-align: center;
+}
+.button-acept {
+  margin-top: 50px;
+  background-image: url(./assets/img/clover-leaf-4.gif);
+  border-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15vw;
+  height: 35px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.card_container {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  z-index: 1;
+  margin: 10px;
+}
+
+.card {
+  width: 200px;
+  height: 195px;
+  background-color: #504a4a;
+  margin: 3px;
+  margin-top: 10px;
+  color: #fff;
+  text-align: center;
+  border: solid 2px#611616;
+  border-radius: 10px;
+}
+.img-card {
+  width: 196px;
+  height: 120px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+h3 {
+  margin-top: 5px;
+  font-size: medium;
+}
+
+.race {
+  margin-top: 5px;
+  font-size: small;
+}
+
+.email {
+  margin-top: 5px;
+  font-size: small;
+  color: #d71c1c;
+}
+.button-avatar {
+  margin-top: 20px;
+  background-image: url(./assets/img/clover-leaf-4.gif);
+  border-color: #d71c1c;
+  color: #96fa7d;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15vw;
+  height: 35px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.button-cancel {
+  margin-top: 20px;
+  background-image: url(./assets/img/clover-leaf-4.gif);
+  border-color: #d71c1c;
+  color: #d71c1c;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15vw;
+  height: 35px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.card_avatar-container {
+  display: flex;
+  padding-left: 22%;
+  flex-wrap: wrap;
+}
+.card-avatar {
+  width: 105px;
+  height: 75px;
+  background-color: #504a4a;
+  margin: 3px;
+  margin-top: 12px;
+  color: #fff;
+  text-align: center;
+  border: solid 2px#611616;
+  border-radius: 10px;
+}
+.img-card-avatar {
+  width: 100px;
+  height: 55px;
+  border-radius: 8px 8px 0px 0px;
+}
+h4 {
+  font-size: x-small;
+}
+/* Tower */
+
+.tower-container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.base-tower {
+  background-image: url(./assets/img/basetower.png);
+  width: 400px;
+  height: 75px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.up-tower {
+  background-image: url(./assets/img/uptower3.png);
+  width: 300px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.blood-tower {
+  background-image: url(./assets/img/sangre.gif);
+  width: 400px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  border-radius: 100px 100px 30px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-tower {
+  background-image: url(./assets/img/towermedio.png);
+  width: 400px;
+  height: 103px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  color: #fff;
+  text-align: center;
+}
+.img-card-tower {
+  padding-top: 20px;
+  width: 120px;
+  height: 52px;
+}
+
+.text-tower {
+  font-size: xx-large;
+  text-align: center;
+  color: #86693c;
+}
