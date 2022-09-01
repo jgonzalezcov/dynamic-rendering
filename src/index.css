@@ -3,8 +3,8 @@
   margin: 0%;
   color: #fff;
 }
+
 body {
-  height: 100%;
   background-repeat: no-repeat;
   background: url(./assets/img/fondomk.gif) no-repeat center center fixed;
   background-color: #000;
@@ -12,7 +12,7 @@ body {
 }
 header {
   background-color: #000;
-  height: 20%;
+  height: 9vh;
   border: 4px solid #611616;
   display: flex;
   align-items: center;
@@ -20,8 +20,8 @@ header {
   border-radius: 5px 5px 10px 10px;
 }
 .logo-header {
-  width: 350px;
-  height: auto;
+  width: auto;
+  height: 9vh;
   margin-left: calc(50% - 175px);
 }
 .header-button {
@@ -223,13 +223,13 @@ h3 {
   border-radius: 8px 8px 0px 0px;
 }
 h4 {
-  font-size: x-small;
+  font-size: xx-small;
 }
 /* Tower */
 
 .tower-container {
   width: 100%;
-  height: 80vh;
+  height: 88vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -237,8 +237,8 @@ h4 {
 }
 .base-tower {
   background-image: url(./assets/img/basetower.png);
-  width: 400px;
-  height: 75px;
+  width: 300px;
+  height: 60px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -268,8 +268,8 @@ h4 {
 
 .card-tower {
   background-image: url(./assets/img/towermedio.png);
-  width: 400px;
-  height: 103px;
+  width: 330px;
+  height: 83px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -278,8 +278,8 @@ h4 {
 }
 .img-card-tower {
   padding-top: 20px;
-  width: 120px;
-  height: 52px;
+  width: 105px;
+  height: 40px;
 }
 
 .text-tower {
