@@ -287,3 +287,95 @@ h4 {
   text-align: center;
   color: #86693c;
 }
+
+/*visualizacion tarjeta*/
+.card-view {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 3;
+  margin-top: 10px;
+  width: 100%;
+}
+.container-card-view {
+  background-color: #611616;
+  width: 320px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(./assets/img/raidenkombat.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  border: solid 5px#611616;
+  border-radius: 20px;
+}
+.img-card-view {
+  width: 300px;
+  height: auto;
+}
+.card-view-edit {
+  background-color: #504a4a;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 5px#611616;
+  border-radius: 10px;
+}
+.container-button-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.view-button {
+  margin-top: 3px;
+  background-image: url(./assets/img/rain-blood.gif);
+  border-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15vw;
+  height: 35px;
+  border-radius: 10px;
+}
+.view-cancel {
+  margin-top: 10px;
+  background-image: url(./assets/img/clover-leaf-4.gif);
+  border-color: #d71c1c;
+  color: #d71c1c;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15vw;
+  height: 35px;
+  border-radius: 10px;
+}
+.title-gallery {
+  text-align: center;
+  font-size: x-large;
+}
+.Border-menu-edit {
+  background-image: url(./assets/img/rain-blood.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  margin-top: 5px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 70vh;
+  margin-left: 10px;
+  border: solid 1px #611616;
+  position: absolute;
+  z-index: 5;
+}
+.container-edit {
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+}
