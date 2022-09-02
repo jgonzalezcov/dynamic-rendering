@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/dynamic-rendering/static/css/main.54ac833a.css",
-    "main.js": "/dynamic-rendering/static/js/main.f2077eb1.js",
+    "main.css": "/dynamic-rendering/static/css/main.8e7a1902.css",
+    "main.js": "/dynamic-rendering/static/js/main.32031e2f.js",
+    "static/media/inraiden.gif": "/dynamic-rendering/static/media/inraiden.4f18d94544c10b3a5eaa.gif",
     "static/media/rain-blood.gif": "/dynamic-rendering/static/media/rain-blood.40efd65cf12432d37157.gif",
     "static/media/sangre.gif": "/dynamic-rendering/static/media/sangre.bba5719e6e2704a0d65e.gif",
     "static/media/rambo.gif": "/dynamic-rendering/static/media/rambo.6b36d6dcf3739623a476.gif",
     "static/media/clover-leaf-4.gif": "/dynamic-rendering/static/media/clover-leaf-4.4c20facb701a889c9a27.gif",
+    "static/media/giphy.gif": "/dynamic-rendering/static/media/giphy.fa4467ee9c710b9b0f25.gif",
+    "static/media/raidenkombat.gif": "/dynamic-rendering/static/media/raidenkombat.d8c28c429bd004fe9175.gif",
     "static/media/kotalkahn.gif": "/dynamic-rendering/static/media/kotalkahn.2a60d9b246e2140a368a.gif",
     "static/media/scorpion.gif": "/dynamic-rendering/static/media/scorpion.e1ec486d042de6674e9f.gif",
     "static/media/sheeva.gif": "/dynamic-rendering/static/media/sheeva.d9d690e08d364a4c2111.gif",
@@ -57,11 +60,11 @@
     "static/media/mk.jpg": "/dynamic-rendering/static/media/mk.6a1db6966194947fb75d.jpg",
     "static/media/dripping.gif": "/dynamic-rendering/static/media/dripping.738f1191dfcc924ca5d5.gif",
     "index.html": "/dynamic-rendering/index.html",
-    "main.54ac833a.css.map": "/dynamic-rendering/static/css/main.54ac833a.css.map",
-    "main.f2077eb1.js.map": "/dynamic-rendering/static/js/main.f2077eb1.js.map"
+    "main.8e7a1902.css.map": "/dynamic-rendering/static/css/main.8e7a1902.css.map",
+    "main.32031e2f.js.map": "/dynamic-rendering/static/js/main.32031e2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.54ac833a.css",
-    "static/js/main.f2077eb1.js"
+    "static/css/main.8e7a1902.css",
+    "static/js/main.32031e2f.js"
   ]
 }
